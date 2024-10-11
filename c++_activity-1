@@ -1,0 +1,32 @@
+#include <iostream> // Erwin Suitado BSIT-1
+
+using namespace std;
+
+int main()
+{
+    string name, address, school, course;
+    int year_level;
+
+    cout << "Your Name: ";
+    cin >> name;
+
+    cout << "Address: ";
+    cin >> address;
+
+    cout << "School: ";
+    cin >> school;
+
+    cout << "Course: ";
+    cin >> course;
+
+    cout << "Year Level: ";
+    cin >> year_level;
+
+    cout << "Your Name: " << name << endl;
+    cout << "Address: " << address << endl;
+    cout << "School: " << school << endl;
+    cout << "Course: " << course << endl;
+    ' cout << "Year Level: " << year_level << endl;
+
+        return 0;
+}
